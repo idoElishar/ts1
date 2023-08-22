@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx node.ts",
-    "build": "tsc node.ts"
+    "dev": "tsx s2.ts",
+    "build": "tsc s2.ts"
   },
   "keywords": [],
   "author": "",

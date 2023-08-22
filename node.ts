@@ -99,7 +99,7 @@ function getMevugar(arr: reader[]): reader {
     return maxReader
 }
 console.log(getOldBook(myUser2))
-function getOldBook(arr: reader[]):book{
+function getOldBook(arr: reader[]): book {
     let oldBook: book = arr[0].favoriteBook
     for (let i = 0; i < arr.length; i++) {
         if (arr[i].favoriteBook.year < oldBook.year) {
